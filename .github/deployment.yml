@@ -1,0 +1,22 @@
+# .github/deployment.yml
+#
+# Config for github-deployment-infrastructure (gdi) preview deployments.
+# See https://github.com/filstawski/github-deployment-infrastructure
+
+name: namegen
+provider: github-pages
+
+github:
+  deployment_owner: surdic-deployments
+
+defaults:
+  ttl: 14d
+
+repository:
+  prefix: namegen
+
+build:
+  framework: auto
+
+preview:
+  healthcheck: /

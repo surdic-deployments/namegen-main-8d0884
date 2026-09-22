@@ -1,0 +1,21 @@
+node_modules
+dist
+dist-ssr
+.npm-cache
+*.local
+*.tsbuildinfo
+
+# gdi local deployment registry (regenerable from GitHub)
+.gdi/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
